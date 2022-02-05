@@ -14,4 +14,7 @@ const images = [
   'https://kanto.legiaodosherois.com.br/w728-h381-gnw-cfill-gcc-f:fbcover/wp-content/uploads/2021/12/legiao_74BWO0KfFHpZ.png.jpeg'
 ]
 
-export default images
+export const getImages = ()=> {
+  return images
+}
+
